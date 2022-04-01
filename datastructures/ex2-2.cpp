@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main2() {
+void main() {
 	int i;
 	//1차원 배열 초기화
 	int score[3] = { 91, 86, 97 };
