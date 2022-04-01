@@ -6,6 +6,7 @@ void main() {
 	printf("\n i狼 皋葛府 林家(&i) = %u", &i);
 	printf("\n j狼 皋葛府 林家(&j) = %u", &j);
 
+	int *ptr;
 	ptr = &i;
 	printf("\n\n << ptr=&i 角青 >>");
 	printf("\n ptr狼 皋葛府 林家(&ptr) = %u", &ptr);
