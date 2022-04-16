@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "addpoly.h"
 #define MAX(a,b) ((a>b)?a:b)
 #define MAX_DEGREE 50
 
@@ -10,7 +11,9 @@ typedef struct {
 polynomial addPoly(polynomial, polynomial);
 void printPoly(polynomial);
 
-void main() {
+
+
+int main(void) {
 	polynomial A = { 3, {4,3,5,0} };
 	polynomial B = { 4, {3,1,0,2,1} };
 
@@ -21,7 +24,7 @@ void main() {
 	printf("\n B(x) ="); printPoly(B);
 	printf("\n C(x) ="); printPoly(C);
 
-	getchar();
+	getchar(); return 0;
 }
 
 polynomial addPoly(polynomial A, polynomial B) {
