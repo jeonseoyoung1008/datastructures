@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -88,7 +89,7 @@ void insertLastNode(linkedList_h* L, char* x) {
 	temp->link = newNode;
 }
 
-int mail() {
+int main() {
 	linkedList_h* L;
 	L = createLinkedList_h();
 	printf("(1) 공백 리스트 생성하기! \n");
